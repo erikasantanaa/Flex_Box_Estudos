@@ -1,0 +1,32 @@
+/* Flex-Box (Torna os elementos flexiveis).
+flex-wrap: wrap ; (Proteger o tamanho normal do elemento).
+flex-wrap: nowrap ; (Opção padrão) 
+ */
+
+ /* flex-flow:; (Serve para colocar todos os flex, em uma só linha )*/
+
+ 
+
+
+
+.container{
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+
+    background-color: teal;
+    height: 400px;
+    color: white;
+}
+.r1{
+    background-color: tomato;
+}
+.r2{
+    background-color: thistle;
+}
+.r3{
+    background-color: crimson;
+}
+.rect{
+    width: 250px;
+    height: 150px;
+}

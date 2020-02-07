@@ -1,0 +1,42 @@
+/* Justify-content: flex-end; (Posiciona o elemento do lado direito da tela.).
+ Justify-content: flex-start; (PADRÃO), posiciona na ordem primeira, ao lado essquerdo da tela.
+Outras opções: 
+center (centro); 
+space-between (tenta manter espaço igual entre os elementos);
+space-around (Uma distancia de linhas, no centro do elemento.); 
+*/
+/* align-items: stretch; (PAdrão Align) 
+*/
+
+/* Lista das maneiras para usar o Justify e align:
+
+justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left
+
+align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end
+*/
+
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    flex-wrap: wrap-reverse;
+    Justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: teal;
+    height: 400px;
+    color: white;
+}
+.r1{
+    background-color: tomato;
+}
+.r2{
+    background-color: thistle;
+}
+.r3{
+    background-color: crimson;
+}
+.rect{
+    width: 250px;
+    height: 150px;
+}
