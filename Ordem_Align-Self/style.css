@@ -1,0 +1,35 @@
+/* order: 1; (Modifica a ordem dos elementos, sem mexer no html. Pelo css , usando a partir de 1 , 2 , 3..) 
+
+align-self: flex-start; (mover um elemento, por exemplo, uma class.)
+
+*/
+
+
+
+.container{
+    display: flex; 
+    align-items: flex-end;
+  
+
+    background-color: teal;
+    height: 400px;
+    color: white;
+}
+.r1{
+    order: 3;
+    background-color: tomato;
+}
+.r2{
+    
+    order: 1;
+    background-color: thistle;
+}
+.r3{
+    align-self: flex-start;
+    order: 2;
+    background-color: crimson;
+}
+.rect{
+    width: 250px;
+    height: 150px;
+}
