@@ -1,0 +1,31 @@
+/* flex-shrink; 0; (Uma propriedade que recebe 0 ou 1, sendo que 0 ela não pode encolher e 1 que ela pode encolher. 
+O padrão é o 1).
+
+flex-grow: 1; (Colocando 1 , ele aumenta o elemento pai. O 0 , não aumenta).
+Pode usar 0 2 , para aumentar o tamanho.
+*/
+
+.container{
+    display: flex;
+    flex-shrink: 0;
+  
+
+    background-color: teal;
+    height: 400px;
+    color: white;
+}
+.r1{
+    flex-grow: 1;
+    background-color: tomato;
+}
+.r2{
+    flex-grow: 1;
+    background-color: thistle;
+}
+.r3{
+    flex-grow: 1;
+    background-color: crimson;
+}
+.rect{
+    /* height: 150px; */
+}
